@@ -20,7 +20,7 @@ int sens_num = 2;
 
 // Wifi-settings
 
-const char* ssid = "SSID;
+const char* ssid = "SSID";
 const char* wifipassword = "PASSWORD";
 
 // MQTT settings
