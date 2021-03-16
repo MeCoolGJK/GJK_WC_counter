@@ -18,9 +18,9 @@ int obsazenost[] = {0, 0, 0, 0, 0, 0};
 
 // Conditions setting
 
-int maxDist = 30; // distance in cm
+int maxDist = 60; // distance in cm
 int minDist = 15; // distance in cm
-int minTime = 3000; // time in ms
+int minTime = 12000; // time in ms
 
 // Inital longs for time counting
 
