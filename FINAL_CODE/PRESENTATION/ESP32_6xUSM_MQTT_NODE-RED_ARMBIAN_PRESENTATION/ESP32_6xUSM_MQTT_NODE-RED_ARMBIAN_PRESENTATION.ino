@@ -92,6 +92,7 @@ void reconnect() {
     Serial.println("Trying to connect to MQTT");
     if (client.connect("EPS32Client")) {
       Serial.println("connected");
+      client.publish( "esp32/status", "Připojeno");
       client.subscribe("esp32/output");
     }
     else {
